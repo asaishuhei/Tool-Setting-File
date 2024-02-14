@@ -1,0 +1,62 @@
+{
+  // ========================================================================
+  // vscodeの設定
+  // ========================================================================
+
+  //ミニマップを非表示にする
+  "editor.minimap.enabled": false,
+
+  //ごみ箱を経由したファイル削除時に確認を行わない
+  "explorer.confirmDelete": false,
+
+  //フォントサイズの変更
+  "editor.fontSize": 15,
+
+  //vscode起動時にファイルを生成しない
+  "workbench.startupEditor": "none",
+
+  // ファイルを自動保存設定をする
+  "files.autoSave": "afterDelay",
+
+  //メニューバーをアクティビティバーに移動
+  "window.menuBarVisibility": "compact",
+
+  //開いているエディターの色を強調する
+  "workbench.colorCustomizations": {
+    "tab.activeBackground": "#238799",
+    "tab.activeForeground": "#232341",
+    "tab.inactiveForeground": "#848490",
+  },
+
+  // アクティビティーバーの表示設定
+  // "workbench.activityBar.visible": false,
+
+  //ブラケット ペアのガイドを有効にする
+  "editor.guides.bracketPairs": true,
+
+  //フォルダツリーのコンパクト形式をoffにする
+  "explorer.compactFolders": false,
+
+  //アイコンテーマ選択
+  "workbench.iconTheme": "material-icon-theme",
+
+  // ====================================
+  // PHP Intelephenseの設定
+  // ====================================
+
+  //未定義の場合にエラーを表示しない
+  "intelephense.diagnostics.undefinedClassConstants": false,
+  "intelephense.diagnostics.undefinedConstants": false,
+  "intelephense.diagnostics.undefinedFunctions": false,
+  "intelephense.diagnostics.undefinedMethods": false,
+  "intelephense.diagnostics.undefinedProperties": false,
+  "intelephense.diagnostics.undefinedTypes": false,
+  "markdown-preview-enhanced.previewTheme": "solarized-dark.css",
+  "markdown-preview-enhanced.mermaidTheme": "dark",
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "foam.completion.label": "title",
+  "editor.largeFileOptimizations": false,
+  "workbench.colorTheme": "Solarized Dark",
+  "workbench.editor.wrapTabs": true,
+  "tabnine.experimentalAutoImports": true,
+}
